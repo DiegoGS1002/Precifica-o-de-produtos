@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de precificação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <footer>
+         <h1>Tabela de precificação</h1>
+    </footer>
+    <section>
+        <form action="tabela.php" method="get">
+
+            <label for="SKU">CÓDIGO SKU</label>
+            <input type="text" name="sku" id="sku">
+
+            <label for="DESCRIÇÃO">DESCRIÇÃO DO PRODUTO</label>
+            <input type="text" name="descricao" id="descricao">
+
+            <label for="cmp">CUSTO MATERIA PRIMA</label>
+            <input type="number" name="cmp" id="cmp" step="0.01">
+
+            <label for="despesas">DESPESAS %</label>
+            <input type="number" name="despesas" id="despesas" step="0.01">
+
+            COMERCIALIZAÇÃO
+
+                <label for="IMPOSTOS">IMPOSTOS %</label>
+                <input type="number" name="impostos" id="impostos" step="0.01">
+
+                <label for="COMISSÃO">COMISSÃO %</label>
+                <input type="number" name="comissao" id="comissao" step="0.01">
+
+                <label for="FRETE">FRETE %</label>
+                <input type="number" name="frete" id="frete" step="0.01">
+
+                <label for="PRAZO">PRAZO 1% A.M</label>
+                <input type="number" name="prazo" id="prazo" step="0.01">
+
+                <label for="INADIMPLENCIA">INADIMPLENCIA %</label>
+                <input type="number" name="inad" id="inad" step="0.01">
+
+                <label for="ASSISTENCIA">Assistência %</label>
+                <input type="number" name="assistencia" id="assistencia" step="0.01">
+
+                <label for="VPC">VPC %</label>
+                <input type="number" name="vpc" id="vpc" step="0.01">
+
+            <input type="submit" value="Calcular">
+        </form>
+    </section>
+</body>
+</html>
