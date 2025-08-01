@@ -1,2 +1,2 @@
-# Precifica-o-de-produtos
-Tabela para cálculos de precificação de produtos 
+# Precificao-de-produtos
+Tabela para cálculos de precificação de produtos
